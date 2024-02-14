@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    background-image: linear-gradient(to bottom, #051937, #000);
+    color: white;
+    min-height: 100%; /* Use min-height instead of height */
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.input-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent input background */
+    color: white; /* Input text color */
+}
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.correct {
+    color: green;
+}
+.wrong-position {
+    color: yellow;
+}
+.incorrect {
+    color: red;
+}
